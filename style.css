@@ -1,0 +1,71 @@
+/*
+Theme Name: SimpleBlog
+Description: Simple Blog theme
+Version: 1.7
+Author: Pavel Dostál
+Author URI: http://pdostal.cz/
+Tags: white, custom header, fixed width, two columns, widgets
+*/
+
+/* Begin Typography & Colors */
+
+html {
+	background-color: #d7d7d7;
+	font-size: 14px;
+}
+body {
+	width: 1000px;
+	margin: 10px auto 10px auto;
+	padding: 10px 30px 10px 30px;
+	border: 1px solid #938c8c;
+	border-radius: 50px;	
+	background-color: #f9f9f9;
+}
+#sidebar {
+	float: right;
+	width: 150px;
+}
+#main {
+	float: left;
+	overflow: auto;
+	width: 830px;
+	height: 100%;
+	margin: 0px 20px 0px 0px;
+}
+footer,header {
+	clear: both;
+}
+header h1,footer {
+	text-align: center;
+}
+footer {
+	padding-top: 30px;
+}
+article {
+	border-bottom: 1px solid #000;
+	border-bottom-style: inset;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
+}
+h1,h2,h3,p,ul,ol,li {
+    margin: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+ul,ol {
+	margin-left: 25px;
+	padding-left: 0px;
+}
+a {
+	color: #0c0fa5;
+	text-decoration: none;
+}
+iframe {
+	width: 100%;
+	border: 0px;
+}
+.date {
+	margin: 15px 15px 0px 0px;
+	text-align: right;
+}
