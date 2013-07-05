@@ -1,5 +1,5 @@
 <?php
-	 include('Mobile_Detect.php');
+	 include('mobile_detect.php');
 	 $detect = new Mobile_Detect;
 	 $screentype = trim(htmlspecialchars(htmlspecialchars_decode($_GET['screentype'], ENT_NOQUOTES), ENT_NOQUOTES));
 	 if(!empty($screentype)) { $_SESSION['screentype'] = $screentype; }
@@ -34,7 +34,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="<?php //bloginfo('url'); ?>http://czcampuseros.eu/"><img src="<?php header_image(); ?>" alt="Logo" /></a></h1>
+			<h1><a href="<?php //bloginfo('url'); ?>http://czcampuseros.eu/"><?php bloginfo('name'); ?></a></h1>
 			<div class="banner">
 				<?php dynamic_sidebar('header'); ?>
 			</div>
