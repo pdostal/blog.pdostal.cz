@@ -1,3 +1,4 @@
+		<div class="clear"></div>
 		<footer>
 			<span>
 				<a href="?screentype=<?php if($screentype == 'mobile') { echo 'desktop'; } else { echo 'mobile'; } ?>">

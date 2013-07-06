@@ -15,4 +15,14 @@ html,body,section,header,div,h1,h2,ul,li { margin: 0px; padding: 0px; overflow: 
 
 /* Body */
 html { background-color: #ededed; font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
-body { width: 1000px; margin: 10px auto; }
+body { background-color: #fff; width: 1000px; margin: 10px auto; padding: 10px; }
+
+header { width: 100%; height: 30px; }
+
+aside { float: right; width: 200px; margin: 0px 15px; }
+
+#main { float: left; width: 750px; }
+
+footer { width: 100%; text-align: center; margin-top: 25px; }
+
+.clear { clear: both; }
