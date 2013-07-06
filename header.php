@@ -34,10 +34,14 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="<?php //bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="<?php bloginfo('wpurl'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<div class="banner">
 				<?php dynamic_sidebar('header'); ?>
 			</div>
+			<div class="banner">
+                <?php dynamic_sidebar( 'header' ); ?>
+            </div>
+            <div class="clear"></div>
 			<nav>
 				<?php wp_nav_menu(array('theme_location' => 'headermenu', 'link_before' => '<span>', 'link_after' => '</span>')); ?>
 			</nav>
