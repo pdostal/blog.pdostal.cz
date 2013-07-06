@@ -27,6 +27,7 @@ header>.banner { float: right; height: 30px; width: 200px; margin: 0px 15px; }
 aside { float: right; width: 200px; margin: 0px 15px; }
 
 #main { float: left; width: 750px; }
+#postsindex li { float: left; height: 100px; width: 375px; display: inline-block; }
 
 footer { width: 100%; text-align: center; margin-top: 25px; }
 
