@@ -4,31 +4,23 @@
 ?>
 <section id="main">
 <?php
-	dynamic_sidebar( 'main1' );
 	if (have_posts()) {
 ?>
-	<ul class="widget">
+	<ul id="postsindex">
 <?php
-		$count = rand(0, 3);
-		while (have_posts()) {
-			the_post();
-			$color = getrandcolor($count);
-			$count++;
-			if($count == 4) { $count = 0; }
+	while (have_posts()) {
+		the_post();
 ?>
-		<li id="<?php echo the_ID(); ?>" class="threebox"
-			style="background-color: <?php echo $color; ?>; border-color: <?php echo $color; ?>;"
-			onClick="location.href='<?php the_permalink(""); ?>'"
-			onMouseOver="changeColorON('<?php echo the_ID(); ?>', '#fff');"
-			onMouseOut="changeColorOUT('<?php echo the_ID(); ?>', '<?php echo $color; ?>');">
+		<li id="post<?php echo the_ID(); ?>">
 				<span class="date"><?php the_time('d. m. Y'); ?></span>
 				<a href="<?php the_permalink(""); ?>"><h1 class="title"><?php the_title(); ?></h1></a>
 				<div class="content"><?php echo strip_tags(get_the_content('(...)')); ?></div>
 		</li>
 <?php
-		}
+	}
 ?>
 	</ul>
+}
 <?php
 	} else {
 ?>
@@ -37,7 +29,6 @@
 	</article>
 <?php
 	}
-	dynamic_sidebar( 'main2' );
 ?>
 	<div class="counter">
 <?php
