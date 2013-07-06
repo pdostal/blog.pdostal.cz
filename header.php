@@ -38,9 +38,6 @@
 			<div class="banner">
 				<?php dynamic_sidebar('header'); ?>
 			</div>
-			<div class="banner">
-                <?php dynamic_sidebar( 'header' ); ?>
-            </div>
             <div class="clear"></div>
 			<nav>
 				<?php wp_nav_menu(array('theme_location' => 'headermenu', 'link_before' => '<span>', 'link_after' => '</span>')); ?>
