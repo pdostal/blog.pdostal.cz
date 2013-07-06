@@ -34,7 +34,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="<?php //bloginfo('url'); ?>http://czcampuseros.eu/"><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="<?php //bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<div class="banner">
 				<?php dynamic_sidebar('header'); ?>
 			</div>
