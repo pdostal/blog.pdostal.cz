@@ -5,8 +5,8 @@
 			</span>
 			<span>
 				Powered by <a href="http://wordpress.org/">Wordpress</a>
-				&copy; <a itemprop="url" href="http://czcampuseros.eu/">CZcampuseros</a>
-				(<a href="mailto:info@czcampuseros.eu">info@czcampuseros.eu</a>)
+				&copy; <a itemprop="url" href="http://pdostal.cz/">Pavel Dostál</a>
+				(<a href="mailto:pdostal@pdostal.cz">pdostal@pdostal.cz</a>)
 			</span>
 			<?php wp_footer(); ?>
 		</footer>
