@@ -18,14 +18,4 @@
         'before_widget' => '<section class="widget" id="%2$s">', 'after_widget' => '</section>',
         'before_title' => '<h1>', 'after_title' => '</h1>'
     ));
-    register_sidebar(array(
-        'name' => 'Header', 'id' => 'header',
-        'before_widget' => '<section class="widget" id="%2$s">', 'after_widget' => '</section>',
-        'before_title' => '<h1>', 'after_title' => '</h1>'
-    ));
-
-    function register_my_menus() {
-        register_nav_menus(array('headermenu' => __('Header Menu')));
-    }
-	add_action('init', 'register_my_menus');
 ?>

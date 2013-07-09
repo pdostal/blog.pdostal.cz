@@ -15,20 +15,18 @@ html,body,section,header,div,h1,h2,ul,li { margin: 0px; padding: 0px; overflow: 
 
 /* Body */
 html { background-color: #ededed; font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
-body { background-color: #fff; width: 1000px; margin: 10px auto; padding: 10px; }
+body { background-color: #fff; width: 1000px; margin: 25px auto 50px auto; padding: 0px 10px; }
 
-header { width: 100%; height: 30px; }
-header>h1 { display: block; float: left; width: 200px; }
-header>.banner { float: right; height: 30px; width: 200px; margin: 0px 15px; }
+body>header { width: 100%; height: 25px; }
+body>header>h1>a { display: block; float: left; width: 200px; color: #000; text-decoration: none; font-variant: small-caps; }
+body>header>.banner { float: right; height: 30px; width: 200px; margin: 0px 15px; }
 
-#widget_search { float: left; }
-#widget_search .screen-reader-text { display: none; }
+body>#main header .desc { display: inline-block; text-align: left; width: 65px; }
 
-aside { float: right; width: 200px; margin: 0px 15px; }
+body>aside { float: right; width: 150px; margin: 0px 0px 0px 15px; }
 
-#main { float: left; width: 750px; }
-#postsindex li { float: left; height: 100px; width: 375px; display: inline-block; }
+body>#main { float: left; width: 800px; }
 
-footer { width: 100%; text-align: center; margin-top: 25px; }
+body>footer { width: 100%; text-align: center; margin: 25px 0px 10px 0px; }
 
 .clear { clear: both; }
