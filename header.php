@@ -35,4 +35,7 @@
 	<body>
 		<header>
 			<h1><a href="<?php bloginfo('wpurl'); ?>"><?php bloginfo('name'); ?></a></h1>
+			<section class="banner">
+				<?php dynamic_sidebar( 'header' ); ?>
+			</section>
 		</header>
