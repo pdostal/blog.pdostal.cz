@@ -28,7 +28,8 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" media="all" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/print.css" media="print" />
 <?php if($_SESSION['screentype'] == 'mobile') { ?>
-		<meta name="viewport" content="width=420, user-scalable=no">
+		<meta name="viewport" content="width=420">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile.css" media="all" />
 <?php } ?>
 	</head>
