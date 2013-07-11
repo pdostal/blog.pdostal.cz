@@ -1,6 +1,18 @@
 <?php
     add_action('init', 'session_start');
 
+    function currentURL() {
+        $url = 'http';
+        if ($_SERVER["HTTPS"] == "on") { $url .= "s"; }
+        $url .= "://";
+        if ($_SERVER["SERVER_PORT"] != "80") {
+            $url .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+        } else {
+            $url .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+        }
+        return $url;
+    }
+
     function the_slug() {
         $post_data = get_post($post->ID, ARRAY_A);
         $slug = $post_data['post_name'];
