@@ -1,3 +1,9 @@
 html { width: 420px; overflow-x: hidden; overflow-y: auto; margin: 0px; padding: 0px; }
-body { width: 400px; overflow: hidden; margin: 10px; }
-#main,aside,header,footer { width: 400px; overflow: hidden; margin: 0px; padding: 0px; }
+body { width: 400px; height: auto; overflow: hidden; margin: 10px; }
+body>#main,body>aside,header,footer { width: 400px; overflow: hidden; margin: 0px; padding: 0px; }
+body>#main { height: auto; }
+header>.banner { text-align: right; }
+body>aside { margin-bottom: 15px; }
+body>aside h1 { text-align: center; }
+body>aside li a { margin-top: 15px; }
+body>aside li,aside li a { display: block; width: 200px; float: left; text-align: center; }
