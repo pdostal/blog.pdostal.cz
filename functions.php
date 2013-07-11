@@ -1,4 +1,6 @@
 <?php
+    add_action('init', 'session_start');
+
     function the_slug() {
         $post_data = get_post($post->ID, ARRAY_A);
         $slug = $post_data['post_name'];
