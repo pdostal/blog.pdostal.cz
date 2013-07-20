@@ -1,24 +1,6 @@
 <?php
-	 include('mobile_detect.php');
-	 $detect = new Mobile_Detect;
-	 $screentype = trim(htmlspecialchars(htmlspecialchars_decode($_GET['screentype'], ENT_NOQUOTES), ENT_NOQUOTES));
-	 if(!empty($screentype)) {
-	 	$_SESSION['screentype'] = $screentype;
-	 	$url = currentURL();
-	 	$url = preg_replace('/\?screentype=[a-z]+/', '', $url);
-	 	header("HTTP/1.1 301 Moved Permanently");
-		header("Location: ".$url);
-		header("Connection: close");
-	 	unset($url);
-	 }
-	 if(empty($_SESSION['screentype'])) {
-	 	if($detect->isMobile() && !$detect->isTablet()) {
-	 		$_SESSION['screentype'] = 'mobile';
-		} else {
-	 		$_SESSION['screentype'] = 'desktop';
-	 	}
-	}
-	unset($detect);
+	include('mobile_detect.php');
+	$detect = new Mobile_Detect;
 ?>
 <!doctype html>
 <html lang="cs">
@@ -35,7 +17,7 @@
 		<![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" media="all" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/print.css" media="print" />
-<?php if($_SESSION['screentype'] == 'mobile') { ?>
+<?php if($detect->isMobile() && !$detect->isTablet()) { ?>
 		<meta name="viewport" content="width=420">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile.css" media="all" />
