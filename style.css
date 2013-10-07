@@ -28,8 +28,19 @@ body>aside>section { margin-top: 10px; }
 body>aside li>a { text-decoration: none; }
 
 body>#main { float: left; width: 675px; height: 500px; overflow: auto; border-radius: 0px 25px 25px 0px; border-width: 1px 1px 1px 0px; border-style: solid; border-color: #cdcdcd; }
-body>#main>#postsindex li { margin-bottom: 25px; }
-body>#main header .desc { display: inline-block; text-align: left; width: 65px; }
+
+#postsindex li { margin-bottom: 15px; }
+#postsindex .date { float: right; margin-right: 25px; }
+#postsindex .title { float: left; }
+#postsindex .content { clear: both; }
+
+article .title,article .date article .category,article .tags {
+	display: inline-block;
+}
+article .title { float: left; }
+article .date { float: right; margin-right: 15px; }
+article .category { float: left; }
+article .tags { float: left; margin-left: 1em; }
 
 body>footer { width: 100%; text-align: center; margin: 10px 0px 5px 0px; }
 
