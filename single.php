@@ -7,18 +7,13 @@
 	<article>
 		<header>
 			<h1><?php the_title(); ?></h1>
-			<div class="date"><span class="desc">Datum: </span><?php the_time('j. n. Y v G:m') ?></div>
+			<div class="date"><span class="desc">Datum: </span><?php the_time('j. n. Y') ?></div>
 			<div class="category"><span class="desc">Kategorie: </span><?php the_category(', '); ?></div>
 			<div class="tags"><span class="desc">Štítky: </span><?php the_tags('', ', ', ''); ?></div>
 		</header>
-		<div class="content"><?php the_content(__('(Celý článek...)')); ?></div>
-		<?php comments_template( '', true ); ?>
+		<div class="content"><?php the_content(); ?></div>
 	</article>
-<?php } } else { ?>
-	<article>
-		<p><?php _e('Žádné články neodpovídají zadaným kritériím.'); ?></p>
-	</article>
-<?php } ?>
+<?php } } ?>
 </section>
 <?php
 	include('footer.php');
