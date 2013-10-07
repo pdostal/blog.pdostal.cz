@@ -30,7 +30,7 @@ body>aside li>a { text-decoration: none; }
 body>#main { float: left; width: 675px; height: 500px; overflow: auto; border-radius: 0px 25px 25px 0px; border-width: 1px 1px 1px 0px; border-style: solid; border-color: #cdcdcd; }
 
 #postsindex li { margin-bottom: 15px; }
-#postsindex .date { float: right; }
+#postsindex .date { float: right; margin-right: 5px; }
 #postsindex .title { float: left; }
 #postsindex .content { clear: both; }
 
