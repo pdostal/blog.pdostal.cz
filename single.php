@@ -8,6 +8,7 @@
 		<header>
 			<h1><?php the_title(); ?></h1>
 			<div class="date"><span class="desc">Datum: </span><?php the_time('j. n. Y') ?></div>
+			<div class="clear"></div>
 			<div class="category"><span class="desc">Kategorie: </span><?php the_category(', '); ?></div>
 			<div class="tags"><span class="desc">Štítky: </span><?php the_tags('', ', ', ''); ?></div>
 		</header>
