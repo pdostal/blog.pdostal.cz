@@ -9,7 +9,7 @@
 			<h1 class="title" itemprop="name"><?php the_title(); ?></h1>
 			<div class="author" itemprop="author" style="display: none;"><?php echo get_the_author_firstname().' '.get_the_author_lastname(); ?></div>
 			<div class="permalink" itemprop="url" style="display: none;"><?php the_permalink(); ?></div>
-			<div class="date" temprop="datePublished"><?php the_time('j. n. Y') ?></div>
+			<div class="date" itemprop="datePublished" content="<?php the_time('Y-m-d') ?>"><?php the_time('j. n. Y') ?></div>
 			<div class="clear"></div>
 			<div class="category"><span class="desc">Kategorie: </span><?php the_category(', '); ?></div>
 			<div class="tags"><span class="desc">Štítky: </span><?php the_tags('', ', ', ''); ?></div>
