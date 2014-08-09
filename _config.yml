@@ -3,7 +3,7 @@ description: "My personal blog"
 
 url: "http://blog.pdostal.cz"
 
-paginate: 10
+#paginate: 10
 
 markdown: rdiscount
 permalink: pretty
