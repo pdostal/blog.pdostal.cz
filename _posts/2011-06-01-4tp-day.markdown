@@ -1,0 +1,42 @@
+---
+layout: post
+status: publish
+published: true
+title: 4TP Day
+author:
+  display_name: Pavel Dostál
+  login: quick
+  email: pdostal@pdostal.cz
+  url: http://pdostal.cz/
+author_login: quick
+author_email: pdostal@pdostal.cz
+author_url: http://pdostal.cz/
+wordpress_id: 16
+wordpress_url: http://pdostal.cz/?p=16
+date: '2011-06-01 14:29:00 +0200'
+date_gmt: '2011-06-01 14:29:00 +0200'
+categories:
+- Akce
+tags: []
+comments: []
+---
+<p><span class="Apple-style-span" style="font-size: large;"><b>Info</b></span></p>
+<ul>
+<li>Jedná se o <b>První pražský sociální Café mashup</b>!</li>
+<li>Neboli <b>setkání příznivců geolokačních služeb</b>!</li>
+<li><b>1. 6. 19:30</b> v <b>NTK <a href="http://cafe-technika.cz/">Café Technica</a></b>!</li>
+<li><a href="http://gug.cz/">GUGcz</a>, <a href="http://futurum.cz/">Futurum</a>, <a href="http://virtualmaster.cz/">Virtualmaster</a> a pivo Bernard :-)</li>
+</ul>
+<p><span class="Apple-style-span" style="font-size: large;"><b>Odkazy</b></span></p>
+<ul>
+<li><a href="http://mxd.cz/4tp/#1">Slajdy</a></li>
+<li><a href="http://www.facebook.com/pages/4TP-Day/188211911229344?ref=ts">Facebook</a></li>
+<li><a href="https://twitter.com/search?q=%234tp">Twitter</a></li>
+<li><a href="http://srazy.info/4tp/1184">Srazy.info</a></li>
+</ul>
+<div><span class="Apple-style-span" style="font-size: large;"><b>Zhodnocení</b></span></div>
+<ul>
+<li>Elišky přednáška <b>byla super</b>!</li>
+<li>Firma VirtualMaster si udělala <b>reklamu</b>.</li>
+<li>Další program <b>nebyl</b>, byla diskuse.</li>
+</ul>

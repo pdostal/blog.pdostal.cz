@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: Advik 2012
+author:
+  display_name: Pavel Dostál
+  login: quick
+  email: pdostal@pdostal.cz
+  url: http://pdostal.cz/
+author_login: quick
+author_email: pdostal@pdostal.cz
+author_url: http://pdostal.cz/
+wordpress_id: 182
+wordpress_url: http://blog.pdostal.cz/?p=182
+date: '2012-07-27 10:42:09 +0200'
+date_gmt: '2012-07-27 10:42:09 +0200'
+categories:
+- Akce
+tags: []
+comments: []
+---
+<ul>
+<li>Nestihl jsem ranou registraci, proto jsem zakoupil lístek za 450,- Kč.</li>
+<li>Bydlím už na koleji, proto jsem nevyužil nabízený nocleh a dojížděl metrem na Chodov a dále pěšky.</li>
+<li>Sobotního programu jsem se nezůčastnil, byl jsem s kamarády v ZOO.</li>
+<li>Nedělního programu jsem se naúčastnil, nebyl tolik zajímavý a navíc jsem musel jet domů.</li>
+</ul>
+<h2>Čtvrtek 26. 7.</h2>
+<ul>
+<li>17:00 - 18:00 = AMV Blok</li>
+<li>18:00 - 19:00 = Školní systém v Japonsku - Zíza</li>
+<li>19:00 - 20:00 = Hey!Say!JUMP - Suzake<br />
+<i>Po zjištění o co se jedná jsem dal přednost občerstvení :)</i></li>
+<li>20:00 - 21:00 = Studentem v Nipponu - Stribro</li>
+</ul>
+<h2>Pátek 27. 7.</h2>
+<ul>
+<li>15:00 - 16:00 = Příprava japonských sladkých jídel - Saint</li>
+<li>19:00 - 20:00 = AMV Soutěž</li>
+<li>20:00 - 21:00 = Japonské školství, fikce versus realita - Grek1</li>
+</ul>
+<h2>Odkazy</h2>
+<ul>
+<li><a href="http://advik.cz/">Advik</a></li>
+<li><a href="https://www.facebook.com/advik.cz">Advik na Facebooku</a></li>
+<li><a href="http://prehravac.rozhlas.cz/audio/2685390">Advik na radiu Wave: rozhovor Michala Ďurfinu s Vojtou Čepelákem</a></li>
+<li><a href="http://www.ceskatelevize.cz/ct24/kultura/187551-advik-do-japonska-tramvaji/">Advik - do Japonska tramvají</a></li>
+</ul>
