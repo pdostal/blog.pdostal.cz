@@ -1,7 +1,0 @@
-html { width: 420px; overflow-x: hidden; overflow-y: auto; margin: 0px; padding: 0px; }
-body { width: 380px; height: auto; overflow: hidden; margin: 10px; }
-body>#main,body>aside,header,footer { width: 380px; overflow: hidden; margin: 0px; padding: 0px; }
-body>#main { height: auto; border-style: none; }
-body>aside { margin-bottom: 15px; text-align: left; }
-body>aside h1 { text-align: center; }
-body>aside li { display: block; width: 190px; float: left; text-align: center; margin-top: 15px; }
