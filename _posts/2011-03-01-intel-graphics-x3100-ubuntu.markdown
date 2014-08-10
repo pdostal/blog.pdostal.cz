@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Intel Graphics Media Accelerator X3100 @ Ubuntu 10.10 &gt;=
+title: Intel Graphics X3100 @ Ubuntu
 author:
   display_name: Pavel Dostál
   login: quick
