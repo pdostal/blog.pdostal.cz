@@ -7,3 +7,6 @@
 [submodule "normalize"]
 	path = normalize
 	url = https://github.com/necolas/normalize.css.git
+[submodule "_plugins/jekyll-url-helper-filter"]
+	path = _plugins/jekyll-url-helper-filter
+	url = https://github.com/jhauraw/jekyll-url-helper-filter-plugin.git

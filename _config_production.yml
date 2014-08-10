@@ -1,8 +1,8 @@
 name: "Paul's blog"
 description: "My personal blog"
 
-production: false
-url: "http://0.0.0.0:4000"
+production: true
+url: "http://blog.pdostal.cz"
 
 #paginate: 10
 
