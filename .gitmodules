@@ -1,0 +1,9 @@
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twbs/bootstrap.git
+[submodule "font-awesome"]
+	path = font-awesome
+	url = https://github.com/twbs/bootstrap.git
+[submodule "normalize"]
+	path = normalize
+	url = https://github.com/necolas/normalize.css.git
