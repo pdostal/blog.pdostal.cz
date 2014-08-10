@@ -8,3 +8,5 @@ url: "http://blog.pdostal.cz"
 markdown: rdiscount
 permalink: pretty
 highlighter: pygments
+
+exclude: ["bootstrap/docs", "font-awesome/src"]
