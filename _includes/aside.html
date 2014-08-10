@@ -1,5 +1,6 @@
+<h1>Posts</h1>
 <ul>
   {% for post in site.posts %}
-  <li><a href="{{ post.url }}" alt="{{ post.date | date: "%m. %d. %Y" }}">{{ post.title | truncatewords: 10 | capitalize }}</a></li>
+  <li><a href="{{ post.url }}" alt="{{ post.date | date: "%m. %d. %Y" }}">{{ post.title | capitalize }}</a></li>
   {% endfor %}
 </ul>
