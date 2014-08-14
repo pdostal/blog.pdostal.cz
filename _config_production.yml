@@ -1,6 +1,7 @@
 name: "Paul's blog"
 description: "My personal blog"
 
+port: 3000
 production: true
 url: "http://blog.pdostal.cz"
 
@@ -11,3 +12,13 @@ permalink: pretty
 highlighter: pygments
 
 exclude: ["bootstrap/docs", "font-awesome/src"]
+
+assets:
+  cache: true
+  js_compressor:  uglifier
+  css_compressor: sass
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendors/normalize
