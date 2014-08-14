@@ -9,8 +9,15 @@
     </header>
     <div class="row">
       <section id="main" class="col-sm-9">
+        {% if page.title %}
         <h1>{{ page.title | capitalize }}</h1>
         <i>{{ page.date | date: "%m. %d. %Y" }}</i>
+        {% else %}
+        {% for post in site.posts limit:1 %}
+        <h1>{{ post.title | capitalize }}</h1>
+        <i>{{ post.date | date: "%m. %d. %Y" }}</i>
+        {% endfor %}
+        {% endif %}
         <div class="content">
           {{ content }}
         </div>
