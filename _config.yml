@@ -11,7 +11,7 @@ markdown: rdiscount
 permalink: pretty
 highlighter: pygments
 
-exclude: ["bootstrap/docs", "font-awesome/src"]
+exclude: ["bootstrap/docs", "font-awesome/src", "config/", "lib/", "tmp/"]
 
 assets:
   cache: false
