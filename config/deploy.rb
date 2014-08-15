@@ -10,6 +10,8 @@ set :log_level, :info
 # set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 set :keep_releases, 3
 
+set :default_environment, { 'PATH' => "/usr/local/rvm/gems/ruby-2.1.2/bin/:$PATH" }
+
 namespace :deploy do
 
   after :publishing, :build do
