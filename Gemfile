@@ -14,9 +14,9 @@ gem 'rdiscount'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
-group :development do
-  gem 'capistrano'
-  # gem 'capistrano-bundler'
-  # gem 'rack-jekyll'
-  gem 'capistrano-rvm'
-end
+# group :development do
+#   gem 'capistrano'
+#   # gem 'capistrano-bundler'
+#   # gem 'rack-jekyll'
+#   gem 'capistrano-rvm'
+# end
