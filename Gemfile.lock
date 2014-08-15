@@ -21,8 +21,6 @@ GEM
     coffee-script-source (1.7.1)
     colorator (0.1)
     colorize (0.7.3)
-    daemons (1.1.9)
-    eventmachine (1.0.3)
     execjs (2.2.1)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
@@ -105,10 +103,6 @@ GEM
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
-    thin (1.6.2)
-      daemons (>= 1.0.9)
-      eventmachine (>= 1.0.0)
-      rack (>= 1.0.0)
     tilt (1.4.1)
     timers (1.1.0)
     toml (0.1.1)
@@ -130,5 +124,4 @@ DEPENDENCIES
   jekyll-assets
   rdiscount
   therubyracer
-  thin
   uglifier

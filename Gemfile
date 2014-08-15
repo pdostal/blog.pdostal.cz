@@ -15,7 +15,6 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
 group :development do
-  gem 'thin'
   gem 'capistrano'
   # gem 'capistrano-bundler'
   # gem 'rack-jekyll'
