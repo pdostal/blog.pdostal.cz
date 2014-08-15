@@ -50,6 +50,7 @@ GEM
       listen (~> 2.7)
     json (1.8.1)
     kramdown (1.4.1)
+    libv8 (3.16.14.3)
     liquid (2.6.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
@@ -69,6 +70,7 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.7.1)
     redcarpet (3.1.2)
+    ref (1.0.5)
     safe_yaml (1.0.3)
     sass (3.3.14)
     sprockets (2.12.1)
@@ -81,6 +83,9 @@ GEM
     sprockets-sass (1.2.0)
       sprockets (~> 2.0)
       tilt (~> 1.1)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     tilt (1.4.1)
     timers (1.1.0)
     toml (0.1.1)
@@ -99,4 +104,5 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   rdiscount
+  therubyracer
   uglifier
