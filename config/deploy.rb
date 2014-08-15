@@ -12,7 +12,14 @@ set :keep_releases, 3
 
 namespace :deploy do
 
-  after :publishing, :restart do
+  after :publishing, :build do
+    on roles(:web), in: :groups do
+      execute :touch, release_path, ""
+      execute "cd '#{release_path}'; jekyll build --config _config_production.yml"
+    end
+  end
+
+  after :build, :restart do
     on roles(:app), in: :sequence, wait: 5 do
       execute :touch, release_path.join('tmp/restart.txt')
     end
