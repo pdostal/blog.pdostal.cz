@@ -17,7 +17,7 @@ namespace :deploy do
   after :publishing, :build do
     on roles(:web), in: :groups do
       within release_path do
-        execute "/usr/local/rvm/gems/ruby-2.1.2/bin/jekyll build --config _config_production.yml"
+        execute "bundle exec jekyll build --config _config_production.yml"
       end
     end
   end
