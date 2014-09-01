@@ -16,7 +16,6 @@ wordpress_url: http://pdostal.cz/?p=12
 date: '2011-04-22 06:53:00 +0200'
 date_gmt: '2011-04-22 06:53:00 +0200'
 categories:
-- Hardware
 - Akce
 tags: []
 comments: []
