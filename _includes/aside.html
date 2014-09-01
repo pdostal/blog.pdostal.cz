@@ -4,3 +4,10 @@
   <li><a href="{{ post.url }}" alt="{{ post.date | date: "%d. %m. %Y" }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<h1>Categories</h1>
+<ul>
+  {% for category in site.categories %}
+  <li><a href="/{{category | first}}/">{{category | first}}</a></li>
+  {% endfor %}
+</ul>
