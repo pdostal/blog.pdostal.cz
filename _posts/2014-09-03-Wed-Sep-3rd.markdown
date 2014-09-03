@@ -10,3 +10,6 @@ tags: []
 comments: []
 ---
 
+### LightHouse
+- I v US existuje spousta ildí, co stále používá hloupé telefony.
+- Pro každou stanici BART existuje brožura v braillu.
