@@ -10,7 +10,6 @@ tags: []
 comments: []
 ---
 
-
 ### DL8589
 - Delta Air Lines, Airbus A320 ... 1hod, 45min
 - (09:55 AM) Letiště Václava Havla, Praha [PRG] ✈︎
@@ -20,3 +19,7 @@ comments: []
 - Delta Air Lines, Boeing 777-200 ... 11hod, 25min
 - (04:35 PM) Charles de Gaulle, Paříž [CDG] ✈︎
 - (07:00 PM) San Francisco, Kalifornie [SFO]
+
+### Charles de Gaulle airport
+- Žádné restaurace, pouze studené bagety a quiche.
+- Dostupná FREE WIFI, zásuvky, možnost v klidu pracovat.
