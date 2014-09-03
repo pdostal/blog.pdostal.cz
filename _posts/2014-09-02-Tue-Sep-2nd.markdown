@@ -3,9 +3,20 @@ layout: post
 status: publish
 published: true
 title: Tue, Sep 2nd
-date: '2014-09-02 00:00:00 +0100'
+date: '2014-09-03 02:25:00 +0200'
 categories:
 - Life
 tags: []
 comments: []
 ---
+
+
+### DL8589
+- Delta Air Lines, Airbus A320 ... 1hod, 45min
+- (09:55 AM) Letiště Václava Havla, Praha [PRG] ✈︎
+- (11:40 AM) Charles de Gaulle, Paříž [CDG]
+
+### DL8403
+- Delta Air Lines, Boeing 777-200 ... 11hod, 25min
+- (04:35 PM) Charles de Gaulle, Paříž [CDG] ✈︎
+- (07:00 PM) San Francisco, Kalifornie [SFO]
