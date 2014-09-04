@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: Wed, Sep 3rd
-date: '2014-09-03 06:45:00 +0200'
+date: '2014-09-04 06:45:00 -0700'
 categories:
 - Life
 tags: []
