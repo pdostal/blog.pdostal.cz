@@ -1,0 +1,13 @@
+---
+layout: post
+status: publish
+published: true
+title: Fri, Sep 5th
+date: '2014-09-04 22:30:00 -0700'
+categories:
+- Life
+tags: []
+comments: []
+---
+
+
