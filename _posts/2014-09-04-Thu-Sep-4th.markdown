@@ -10,4 +10,5 @@ tags: []
 comments: []
 ---
 
-
+### SOCAP
+- Vodafone Americas Mobile Fast Pitch
