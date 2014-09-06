@@ -3,13 +3,13 @@ layout: post
 status: publish
 published: true
 title: Fri, Sep 5th
-date: '2014-09-05 11:30:00 -0700'
+date: '2014-09-06 08:15:00 -0700'
 categories:
 - Life
 tags: []
 comments: []
 ---
 
-### Forenoon
 - Apple Store, Chestnut Street
--
+- First friday - Art murmur
+- Impact hub Oakland
