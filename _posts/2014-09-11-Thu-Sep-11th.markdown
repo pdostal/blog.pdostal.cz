@@ -10,4 +10,12 @@ tags: []
 comments: []
 ---
 
+### KL5299
+- KLM Royal Dutch Airlines, Boeing 757-200 ... 5hod, 37min
+- (06:45 AM) San Francisco, Kalifornie [SFO] ✈︎
+- (03:32 PM) John F. Kennedy International, New York [JFK]
 
+### KL6010
+- KLM Royal Dutch Airlines, Boeing 767-300 ... 8hod, 21min
+- (07:54 PM) John F. Kennedy International, New York [JFK] ✈︎
+- (10:15 AM) Letiště Václava Havla, Praha [PRG]
